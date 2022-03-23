@@ -1,6 +1,11 @@
-# Pokemon Pokedex(Catalog)
+## Pokemon Pokedex(Catalog)
 
-Using
+***
+<details>
+
+<summary><b>Using :</b></summary>
+
+- Balsamiq
 
 - React
 
@@ -12,6 +17,20 @@ Using
 
 - ?????
 
+</details>
+
+***
+
+***
+
+<details>
+  <summary><b>Pokeedex Mockup :</b></summary>
+
+![mockup-1](mockups/mockup-screen-1.png)
+
+</details>
+
+
 ***
 
 ***
@@ -22,8 +41,10 @@ This project has a mentor helping, as well as, learning along the way.
 
 >Such as | Soul Silver > Ultra Sun > Pokemon Bank > Sword > Home
 
+***
 
-## Start for Creating the Front End Design
+
+### **Start of Creating the Front End Design**
 
 Using tools to create a mockup of the site.
 
@@ -35,8 +56,22 @@ Using tools to create a mockup of the site.
 
 - CSS
 
-The design is to be a simple and functional pokedex that lets you select and view pokemon.
+The design is to be a simple and functional pokedex that lets you select and view pokemon. A mockup will be made showing a tentative design for the webpage. So far this mockup has 4 parts to it: Search, Description, Sprite, Entries(List of Pokemon).
 
-Input will be pokemon name(with auto-complete) seach. 
+Input will be pokemon name(with auto-complete) seach, or entry selection.
 
-Output will be a sprite, and description.
+Output will be a description, and sprite.
+
+The basic mockup only took a few minutes to design. Based off many other pokedex creations. 
+
+***
+
+### **Resources for Pokedex**
+
+***
+
+
+<div id="end-of-doc"></div>
+
+
+  
