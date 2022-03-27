@@ -48,8 +48,6 @@ This project has a mentor helping, as well as, learning along the way.
 
 Using tools to create a mockup of the site.
 
-- Paint
-
 - Balsamiq
 
 - HTML
@@ -66,7 +64,20 @@ The basic mockup only took a few minutes to design. Based off many other pokedex
 
 ***
 
+***
+
+Start of HTML and CSS prototype. One of the steps required to create a component is to create the styling and divisions before putting it together in React.
+
+First few steps are creating a few boxes and style them into a format of my choosing. The easiest way is using html to create the divs and then make a stylesheet. Adding this to the divs will have the desired design.
+
+
+***
+
 ### **Resources for Pokedex**
+
+- https://htmlcheatsheet.com/
+
+- https://pokeapi.co/about
 
 ***
 
