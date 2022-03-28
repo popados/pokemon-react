@@ -70,6 +70,22 @@ Start of HTML and CSS prototype. One of the steps required to create a component
 
 First few steps are creating a few boxes and style them into a format of my choosing. The easiest way is using html to create the divs and then make a stylesheet. Adding this to the divs will have the desired design.
 
+***
+
+### HTML
+
+Display 
+
+- Search
+
+- Description
+
+- Sprite
+
+- box???
+
+
+
 
 ***
 
@@ -78,6 +94,8 @@ First few steps are creating a few boxes and style them into a format of my choo
 - https://htmlcheatsheet.com/
 
 - https://pokeapi.co/about
+
+- http://www.htmltemplates.net/
 
 ***
 
