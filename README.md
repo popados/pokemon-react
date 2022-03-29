@@ -11,13 +11,13 @@
 
 - CSS
 
+
 - Node
 
+</details>
 - Express
-
 - ?????
 
-</details>
 
 ***
 
@@ -45,22 +45,23 @@ This project has a mentor helping, as well as, learning along the way.
 
 
 ### **Start of Creating the Front End Design**
+- Balsamiq
 
 Using tools to create a mockup of the site.
 
-- Balsamiq
 
 - HTML
 
+The design is to be a simple and functional pokedex that lets you select and view pokemon. A mockup will be made showing a tentative design for the webpage. So far this mockup has 4 parts to it: Search, Description, Sprite, Entries(List of Pokemon).
+
 - CSS
 
-The design is to be a simple and functional pokedex that lets you select and view pokemon. A mockup will be made showing a tentative design for the webpage. So far this mockup has 4 parts to it: Search, Description, Sprite, Entries(List of Pokemon).
 
 Input will be pokemon name(with auto-complete) seach, or entry selection.
 
-Output will be a description, and sprite.
 
-The basic mockup only took a few minutes to design. Based off many other pokedex creations. 
+Output will have descriptions, and sprites. The basic mockup only took a few minutes to design. Based off many other pokedex creations.
+
 
 ***
 
@@ -73,10 +74,10 @@ First few steps are creating a few boxes and style them into a format of my choo
 ***
 
 ### HTML
+- Search
 
 Display 
 
-- Search
 
 - Description
 
@@ -93,9 +94,12 @@ Display
 
 - https://htmlcheatsheet.com/
 
+- https://htmlcheatsheet.com/css/
+
 - https://pokeapi.co/about
 
 - http://www.htmltemplates.net/
+
 
 ***
 
