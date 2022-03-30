@@ -11,7 +11,6 @@
 
 - CSS
 
-
 - Node
 
 </details>
@@ -99,6 +98,8 @@ Display
 - https://pokeapi.co/about
 
 - http://www.htmltemplates.net/
+
+- https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_background-origin
 
 
 ***

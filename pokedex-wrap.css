@@ -8,9 +8,18 @@
 	background:none;
 } */
 
+#logo {
+	margin: 10px;
+	/* border: 10px solid red; */
+	width: 250px;
+	background: yellow;
+	color: red;
+
+}
+
 
 #header {
-	margin:0 auto;
+	margin: 0;
     padding: 0px 0px 0px 10px;
     border: 2px solid red;
     height: 600px;
@@ -19,6 +28,7 @@
 }
 
 #content {
-	padding: 10px;
+	padding: 0px;
+	margin: 10px;
 
 }

@@ -1,0 +1,37 @@
+
+/* body {
+    color: red;
+
+} */
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+/*     font-size: clamp(10px, 2vw, 20px); */
+  }
+  
+
+h1 {
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15em;
+    padding: 10px;
+    border: 15px solid blue;
+    transform: skew(-15deg);
+    display:inline-block;
+    margin-left: 100px;
+      
+  }
+
+#font {
+    color: yellow;
+    -webkit-text-stroke-width: 10px ;
+    -webkit-text-stroke-color: blue;
+    font-weight: 900px;
+/*     text-shadow: 10px 0 1px blue; */
+    
+
+}
+
