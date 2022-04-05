@@ -101,6 +101,14 @@ Display
 
 - https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_background-origin
 
+- https://codepen.io/triss90/pen/ZOrYra
+
+- https://www.designpieces.com/palette/pokemon-logo-color-palette-hex-and-rgb/
+
+- https://codepen.io/BrendanGasparin/pen/JjJVwRe
+
+- https://codepen.io/axeldjunior/pen/RwLgOvB
+
 
 ***
 

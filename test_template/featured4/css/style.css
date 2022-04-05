@@ -201,6 +201,7 @@ h6 {
 .navigation ul li:last-child {
 	border-right:none;
 }
+
 /*----end header----*/
 
 
@@ -273,7 +274,8 @@ a.btn:hover{
 	padding:12px 0 12px 32px;
 	margin-bottom:5px;
 	color:#1b0400;
-	background:url(../images/arrow.png)#d2d35e no-repeat 10px center;
+	/* background:url(../images/arrow.png
+	)#d2d35e no-repeat 10px center; */
 }
 
 .left_side_bar .col_1{
