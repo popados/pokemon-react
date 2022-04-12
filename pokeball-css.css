@@ -1,0 +1,64 @@
+
+    .wrapper {
+    min-height: 100vh;
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: -250px;
+    margin-left: 1024px;
+  }
+  
+  
+  
+  .ball {
+    height: 500;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+  
+  .red-half {
+    height: 100;
+    width: 200;
+    background-color: red;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+  }
+  
+  .white-half {
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+  }
+  
+  .black-band {
+    position: relative;
+    top: -105px;
+    width: 200px;
+    height: 14px;
+    background-color: black;
+  }
+  
+  .outer-button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -147px;
+    left: 63px;
+    height: 60px;
+    width: 60px;
+    border: 7px solid black;
+    border-radius: 50%;
+    background-color: white;
+  }
+  
+  .inner-button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid black
+  }
+    
