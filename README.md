@@ -23,12 +23,20 @@
 ***
 
 <details>
-  <summary><b>Pokeedex Mockup :</b></summary>
+  <summary><b>Pokedex Mockup :</b></summary>
 
 ![mockup-1](mockups/mockup-screen-1.png)
 
 </details>
 
+***
+***
+<details>
+  <summary><b>Pokedex Logo :</b></summary>
+
+![mockup-1](/logo_preview.png)
+
+</details>
 
 ***
 
@@ -61,6 +69,8 @@ Input will be pokemon name(with auto-complete) seach, or entry selection.
 
 Output will have descriptions, and sprites. The basic mockup only took a few minutes to design. Based off many other pokedex creations.
 
+
+I made a logo.
 
 ***
 
