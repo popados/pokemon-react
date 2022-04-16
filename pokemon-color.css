@@ -134,6 +134,7 @@ Georgia, 'Times New Roman', Times, serif; */
   }
 
   .font{
+    margin-top: 50;
     color: yellow;
     font-size: 350px;
     -webkit-text-stroke-width: 8px;
@@ -143,21 +144,21 @@ Georgia, 'Times New Roman', Times, serif; */
 
 
 
-  .font-wrap:before {
-    content: '';
-    position: absolute;
-    width: 1000;
-    top: 365;
-    left: 10;
-    border-top: 5px solid black;
-    background: black;
-    transform: translateY(-50%);
-  }
+    .font-wrap:before {
+      content: '';
+      position: absolute;
+      width: 1000;
+      top: 407;
+      left: 10;
+      border-top: 5px solid black;
+      background: black;
+      transform: translateY(-50%);
+    }
 
     #letter-p {
       position: absolute;
-      margin-left: 25;
-      margin-top: -1;
+      margin-left: 50;
+      margin-top: -31;
       transform: scale(1.115,1.5);
       font-weight: bolder;
       font-family: Georgia, 'Times New Roman', Times, serif;
@@ -165,7 +166,7 @@ Georgia, 'Times New Roman', Times, serif; */
 
     #letter-o {
       position: absolute;
-      margin: 2 0 0 250;
+      margin: 3 0 0 250;
       transform: scale(1.2,1.15);
       font-weight: bolder;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -180,10 +181,16 @@ Georgia, 'Times New Roman', Times, serif; */
     }
     #letter-e {
       position: absolute;
-      margin: 95 0 0 660;
-      font-size: 281;
+      margin: 77 0 0 660;
+      font-size: 300;
       transform: scale(1.1) rotate(- .7deg);
       font-weight: bolder;
       font-family: Georgia, 'Times New Roman', Times, serif;
     }
   
+
+    .grey-sq{
+      width: 1200;
+      height: 200;
+      background-color: grey;
+    }
