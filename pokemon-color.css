@@ -99,6 +99,10 @@ Georgia, 'Times New Roman', Times, serif; */
   } */
 
 
+html {
+    background-color: black;
+  }
+
 
   .square{
     height: 300;
@@ -109,22 +113,25 @@ Georgia, 'Times New Roman', Times, serif; */
   }
     
   .circle {
+    position: absolute;
     height: 700;
     width: 700px;
     border: 5px solid blue;
     border-radius: 50%;
+    z-index: -1;
   }
 
   .red-ball{
     height: 700;  
     width: 700;  
+    margin: 0 0 0 0;
     background-color: red;
     border-radius: 50%;
 
   }
 
   .white-ball{
-    margin-top: -350;
+    margin: -350 0 0 0;
     height: 350;  
     width: 700;
     border-bottom-left-radius: 350px;
@@ -134,12 +141,12 @@ Georgia, 'Times New Roman', Times, serif; */
   }
 
   .font{
+    position: relative;
     margin-top: 50;
     color: yellow;
     font-size: 350px;
     -webkit-text-stroke-width: 8px;
     -webkit-text-stroke-color: blue;
-
   }
 
 
@@ -151,7 +158,6 @@ Georgia, 'Times New Roman', Times, serif; */
       top: 407;
       left: 10;
       border-top: 5px solid black;
-      background: black;
       transform: translateY(-50%);
     }
 
@@ -181,8 +187,8 @@ Georgia, 'Times New Roman', Times, serif; */
     }
     #letter-e {
       position: absolute;
-      margin: 77 0 0 660;
-      font-size: 300;
+      margin: 69.5 0 0 660;
+      font-size: 308.5;
       transform: scale(1.1) rotate(- .7deg);
       font-weight: bolder;
       font-family: Georgia, 'Times New Roman', Times, serif;
@@ -190,7 +196,53 @@ Georgia, 'Times New Roman', Times, serif; */
   
 
     .grey-sq{
-      width: 1200;
-      height: 200;
+      position: absolute;
+      z-index: -1;
+      margin: 355 0 0 500;
+      width: 500;
+      height: 300;
       background-color: grey;
     }
+
+    .green-sq{
+      position: absolute;
+      z-index: -1;
+      margin: 210 0 0 500;
+      width: 500;
+      height: 150;
+      background-color: green;
+    }
+
+    .dex-font {
+      position: absolute;
+      z-index: 2;
+      position: absolute;
+      color: black;
+      font-size: 250;
+      margin: 296 0 0 600;
+
+    }
+
+  #letter-d {
+      position: absolute;
+      margin: 0 0 0
+
+
+    }
+  #letter-e-two {
+      position: absolute;
+      margin: -0 0 0 120;
+
+    }
+  #letter-x {
+      position: absolute;
+      margin: 0 0 0 205;
+
+    }
+
+
+
+/*     #letter-d {
+      position: absolute;
+    }
+ */
