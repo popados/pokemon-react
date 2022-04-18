@@ -1,107 +1,9 @@
-/*   #font {
-  color: yellow;
-  -webkit-text-stroke-width: 5 ;
-  -webkit-text-stroke-color: blue;
-  background-color: black;
-  
-}
-*/
-/*   text-shadow: 10px 0 1px blue; */
-
-/*   
-
-/*  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, hr, button {
-	display: absolute;
-  margin:0;
-	padding:0;
-	border:0;
-	outline:0;
-  width: auto;
-	font-size:100%;
-	vertical-align:baseline;
-  background-color: black;
-  color: orange;
-  border: 5px solid rgb(0, 255, 21);
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
- */
-
-/* 
- body {
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    flex-direction: column;
-    
-  } */
-
-/*   .letter > div {
-      display: grid;
-      grid-template-columns: 200px 200px 200px;
-  }
- */
-
- /*   
-
-Georgia, 'Times New Roman', Times, serif; */
-/*   #letter-d{
-
-
-
-  
-    position: absolute;
-    color: white;
-    padding-left: 525px; 
-    margin-top: -75px;
-    font-size: 750px;
-    transform: scaleX(.85);
-    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-    
-  }
-
-  #letter-cap-e {
-
-    position: absolute;
-    color: white;
-    padding-left: 937px;
-    padding-top: 219;
-    font-size: 486;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  
-
-  #letter-x {
-    position: absolute;
-    color: white;
-    padding-left: 1075;
-    padding-top: 97;
-    font-size: 575;
-    transform:scale(1.15) ;
-    font-weight: bolder;
-
-    font-weight: bolder;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  } */
-
-/*   html {
-    background-color: black;
-  } */
 
 
 html {
-    background-color: black;
+    background-color: white;
   }
+
 
 
   .square{
@@ -113,6 +15,7 @@ html {
   }
     
   .circle {
+    margin: 10 0 0 0;
     position: absolute;
     height: 700;
     width: 700px;
@@ -127,7 +30,6 @@ html {
     margin: 0 0 0 0;
     background-color: red;
     border-radius: 50%;
-
   }
 
   .white-ball{
@@ -141,8 +43,9 @@ html {
   }
 
   .font{
+    margin-top: 75;
+    margin-left: -10;
     position: relative;
-    margin-top: 50;
     color: yellow;
     font-size: 350px;
     -webkit-text-stroke-width: 8px;
@@ -154,9 +57,9 @@ html {
     .font-wrap:before {
       content: '';
       position: absolute;
-      width: 1000;
-      top: 407;
-      left: 10;
+      width: 1400;
+      top: 440;
+      left: 12;
       border-top: 5px solid black;
       transform: translateY(-50%);
     }
@@ -164,7 +67,7 @@ html {
     #letter-p {
       position: absolute;
       margin-left: 50;
-      margin-top: -31;
+      margin-top: -25;
       transform: scale(1.115,1.5);
       font-weight: bolder;
       font-family: Georgia, 'Times New Roman', Times, serif;
@@ -172,24 +75,25 @@ html {
 
     #letter-o {
       position: absolute;
-      margin: 3 0 0 250;
+      margin: 7.5 0 0 250;
       transform: scale(1.2,1.15);
       font-weight: bolder;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     }
+
+
     #letter-k{
       position: absolute;
-      margin: -13 0 0 450;
+      margin: -6.5 0 0 450;
       font-weight: bold;
       transform: scale(1.25);
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     }
     #letter-e {
       position: absolute;
-      margin: 69.5 0 0 660;
+      margin: 76 0 0 660;
       font-size: 308.5;
-      transform: scale(1.1) rotate(- .7deg);
+      transform: scale(1.12) rotate(- .7deg);
       font-weight: bolder;
       font-family: Georgia, 'Times New Roman', Times, serif;
     }
@@ -198,8 +102,8 @@ html {
     .grey-sq{
       position: absolute;
       z-index: -1;
-      margin: 355 0 0 500;
-      width: 500;
+      margin: 367 0 0 500;
+      width: 700;
       height: 300;
       background-color: grey;
     }
@@ -208,9 +112,18 @@ html {
       position: absolute;
       z-index: -1;
       margin: 210 0 0 500;
-      width: 500;
+      width: 700;
       height: 150;
       background-color: green;
+    }
+
+    .blue-sq {
+      position: absolute;
+      z-index: -1;
+      margin: 100 0 0 500;
+      width: 700;
+      height: 150;
+      background-color: #000035;
     }
 
     .dex-font {
@@ -219,13 +132,13 @@ html {
       position: absolute;
       color: black;
       font-size: 250;
-      margin: 296 0 0 600;
+      margin: 300 0 0 700;
 
     }
 
   #letter-d {
       position: absolute;
-      margin: 0 0 0
+      margin: 0 0 0 -19;
 
 
     }
@@ -236,13 +149,7 @@ html {
     }
   #letter-x {
       position: absolute;
-      margin: 0 0 0 205;
+      margin: 0 0 0 235;
 
     }
 
-
-
-/*     #letter-d {
-      position: absolute;
-    }
- */
