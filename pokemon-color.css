@@ -1,7 +1,7 @@
 
 
 html {
-    background-color: white;
+    background-color: black;
   }
 
 
@@ -139,6 +139,7 @@ html {
   #letter-d {
       position: absolute;
       margin: 0 0 0 -19;
+      font-size: 500;
 
 
     }

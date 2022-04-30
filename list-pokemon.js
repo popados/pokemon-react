@@ -625,18 +625,29 @@ for (var i = 0; i < DATA[0].results.length; i++) {
 
 console.log(pokemon_names.length)
 
-var listDiv = document.getElementById('pokemon')
-var ul = document.createElement('ul');
+var listDiv = document.createElement('ul')
+
+document.body.appendChild(listDiv)
+
 
 for (i in pokemon_names) {
+
+    //~~~EACH ELEMENT REQUIRES~~~~
+    // create list ??
+    //create list item
+    //place list item in div
+    // if i < 0 ; 
+
     pokemon_names[i]
-/*     console.log(pokemon_names[i].name) */
+    document.write("<li>")
     document.write(pokemon_names[i].name)
     document.write("<br>")
 }
 
 
 
+
+/*     console.log(pokemon_names[i].name) */
 
 /* JSON.parse(DATA)
 */
