@@ -1,7 +1,7 @@
 
 
 html {
-    background-color: black;
+    background-color: gray;
   }
 
 
@@ -15,13 +15,13 @@ html {
   }
     
   .circle {
-    margin: 10 0 0 0;
+    margin: 0 0 0 0;
     position: absolute;
     height: 700;
-    width: 700px;
-    border: 5px solid blue;
+    width: 700;
+    border: 10px solid black;
     border-radius: 50%;
-    z-index: -1;
+    z-index: 2;
   }
 
   .red-ball{
@@ -33,41 +33,31 @@ html {
   }
 
   .white-ball{
-    margin: -350 0 0 0;
-    height: 350;  
-    width: 700;
+    margin: -355 0 0 0;
+    height: 365px;  
+    width: 700px;
     border-bottom-left-radius: 350px;
     border-bottom-right-radius: 350px;
     background-color: white;
+    z-index: -2;
 
   }
-
   .font{
-    margin-top: 75;
+    margin-top: 25;
     margin-left: -10;
-    position: relative;
+    position: absolute;
     color: yellow;
-    font-size: 350px;
+    font-size: 250;
     -webkit-text-stroke-width: 8px;
     -webkit-text-stroke-color: blue;
   }
 
 
 
-    .font-wrap:before {
-      content: '';
-      position: absolute;
-      width: 1400;
-      top: 440;
-      left: 12;
-      border-top: 5px solid black;
-      transform: translateY(-50%);
-    }
-
     #letter-p {
       position: absolute;
       margin-left: 50;
-      margin-top: -25;
+      margin-top: -27;
       transform: scale(1.115,1.5);
       font-weight: bolder;
       font-family: Georgia, 'Times New Roman', Times, serif;
@@ -75,7 +65,7 @@ html {
 
     #letter-o {
       position: absolute;
-      margin: 7.5 0 0 250;
+      margin: 10 0 0 250;
       transform: scale(1.2,1.15);
       font-weight: bolder;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -84,15 +74,14 @@ html {
 
     #letter-k{
       position: absolute;
-      margin: -6.5 0 0 450;
+      margin: -7.5 0 0 450;
       font-weight: bold;
       transform: scale(1.25);
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     }
     #letter-e {
       position: absolute;
-      margin: 76 0 0 660;
-      font-size: 308.5;
+      margin: 75 0 0 660;
       transform: scale(1.12) rotate(- .7deg);
       font-weight: bolder;
       font-family: Georgia, 'Times New Roman', Times, serif;
@@ -102,17 +91,17 @@ html {
     .grey-sq{
       position: absolute;
       z-index: -1;
-      margin: 367 0 0 500;
-      width: 700;
-      height: 300;
+      margin: 400 0 0 200;
+      width: 1200;
+      height: 150;
       background-color: grey;
     }
 
     .green-sq{
       position: absolute;
       z-index: -1;
-      margin: 210 0 0 500;
-      width: 700;
+      margin: 250 0 0 200;
+      width: 1200;
       height: 150;
       background-color: green;
     }
@@ -120,8 +109,8 @@ html {
     .blue-sq {
       position: absolute;
       z-index: -1;
-      margin: 100 0 0 500;
-      width: 700;
+      margin: 100 0 0 200;
+      width: 1200;
       height: 150;
       background-color: #000035;
     }
@@ -132,25 +121,27 @@ html {
       position: absolute;
       color: black;
       font-size: 250;
-      margin: 300 0 0 700;
+      margin-top: 175px;
 
     }
 
-  #letter-d {
+    #letter-d {
       position: absolute;
-      margin: 0 0 0 -19;
-      font-size: 500;
+      margin: 100 0 0 100;
+      font-size: 450;
 
 
     }
   #letter-e-two {
       position: absolute;
-      margin: -0 0 0 120;
+      margin: 200 0 0 383;
+      font-size: 225;
 
     }
   #letter-x {
       position: absolute;
-      margin: 0 0 0 235;
-
+      margin: 200 0 0 495;
+      font-size: 225;
     }
+
 
