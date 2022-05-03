@@ -5,37 +5,30 @@ html {
   }
 
 
-
-  .square{
-    height: 300;
-    width: 600;
-    margin-left: 600;
-    background: gray;
-
-  }
     
   .circle {
     margin: 0 0 0 0;
     position: absolute;
     height: 700;
     width: 700;
-    border: 10px solid black;
+    border: 12px solid black;
     border-radius: 50%;
     z-index: 2;
   }
 
   .red-ball{
     height: 700;  
-    width: 700;  
+    width: 705;  
     margin: 0 0 0 0;
     background-color: red;
     border-radius: 50%;
+    z-index: 1;
   }
 
   .white-ball{
     margin: -355 0 0 0;
-    height: 365px;  
-    width: 700px;
+    height: 368px;  
+    width: 705px;
     border-bottom-left-radius: 350px;
     border-bottom-right-radius: 350px;
     background-color: white;
@@ -50,6 +43,7 @@ html {
     font-size: 250;
     -webkit-text-stroke-width: 8px;
     -webkit-text-stroke-color: blue;
+    z-index: 2;
   }
 
 
@@ -101,9 +95,11 @@ html {
       position: absolute;
       z-index: -1;
       margin: 250 0 0 200;
-      width: 1200;
-      height: 150;
-      background-color: green;
+      width: 750;
+      height: 750;
+      background-color: white;
+      border-radius: 60%;
+      z-index: 1;
     }
 
     .blue-sq {
@@ -111,8 +107,9 @@ html {
       z-index: -1;
       margin: 100 0 0 200;
       width: 1200;
-      height: 150;
-      background-color: #000035;
+      height: 1200;
+      background-color: black;
+      border-radius: 50%;
     }
 
     .dex-font {

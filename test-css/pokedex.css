@@ -1,0 +1,41 @@
+    
+  .circle {
+    margin: 20 0 0 20;
+    position: absolute;
+    height: 250;
+    width: 250;
+    border: 12px solid black;
+    border-radius: 50%;
+    z-index: 2;
+  }
+
+  .red-ball{
+    height: 250;  
+    width: 256;  
+    margin: 0 0 0 -4;
+    background-color: red;
+    border-radius: 50%;
+  }
+
+  .white-ball{
+    margin: -125 0 0 -4;
+    height: 128;  
+    width: 256;  
+    border-bottom-left-radius: 350px;
+    border-bottom-right-radius: 350px;
+    background-color: white;
+
+  }
+
+  .gray-sq {
+    background-color: white;
+    width: 90%;
+    height: 600;
+    z-index: -1;
+    position: absolute;
+    border: 2px solid black;
+  }
+
+  input {
+      margin: 10 0 0 250;
+  }
