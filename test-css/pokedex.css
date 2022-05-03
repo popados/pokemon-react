@@ -1,41 +1,99 @@
     
+
+    body {
+
+    }
+
+    *:focus {
+     outline:none !important
+   }
+
   .circle {
     margin: 20 0 0 20;
-    position: absolute;
-    height: 250;
-    width: 250;
-    border: 12px solid black;
+    position: relative;
+    height: 120;
+    width: 120;
+    border: 5px solid black;
     border-radius: 50%;
-    z-index: 2;
+    z-index: 100;
   }
 
   .red-ball{
-    height: 250;  
-    width: 256;  
-    margin: 0 0 0 -4;
+    position: relative;
+    height: 122;  
+    width: 124;  
+    margin: 0 0 0 0;
     background-color: red;
     border-radius: 50%;
+    z-index: 1;
   }
 
   .white-ball{
-    margin: -125 0 0 -4;
-    height: 128;  
-    width: 256;  
+    position: relative;
+    margin: -64 0 0 -0;
+    height: 64;  
+    width: 124;  
     border-bottom-left-radius: 350px;
     border-bottom-right-radius: 350px;
     background-color: white;
+    z-index: 1;
 
   }
 
   .gray-sq {
-    background-color: white;
-    width: 90%;
+    position: absolute;
+    background-color: gray;
+    width: 800;
     height: 600;
     z-index: -1;
-    position: absolute;
     border: 2px solid black;
   }
 
-  input {
-      margin: 10 0 0 250;
+  input[type=text] {
+      position: absolute;
+      margin: 5px;
+      padding: 5px;
+
   }
+
+  .search {
+      margin: 0 0 0 -500;
+  }
+
+  button:hover  {
+      background-color: green;
+  }
+
+
+  .description-outline {
+      position: absolute;
+      border: 2px solid black;
+      background-color: 666A86;
+      height: 450;
+      width: 680;
+      margin: -64 0 0 60;
+      /* left: 50%;
+      top: 50%; */
+      z-index: 1;
+
+  }
+
+
+  .pokemon-box {
+      position: absolute;
+      background-color: #E5E5E5;
+      margin: 160 0 0 64;
+      height: 325;
+      width: 200;
+
+  }
+
+  .yinyang {
+    position: absolute;
+    background: #fff;
+    height: 100px;
+    border: 2px solid black;
+    width: 50px; 
+    border-width: 2px 50px 2px 2px;
+    border-radius: 50%;
+  } 
