@@ -1,8 +1,8 @@
     
 
 
-
     body {
+        justify-content: center;
         font-size: 25px;
 
     }
@@ -52,15 +52,24 @@
 
   }
 
+  input {
+    margin-left: 500;
+    position: absolute;
+    z-index: 5;
+
+  }
+
 
   .pokemon-box {
       margin-top: 250;
       margin-left: 25;
       position: absolute;
-      background-color: #E5E5E5;
+      background-color: #B9BEC7;
       height: 300;
       width: 200;
       z-index: 4;
+      border: 5px solid black;
+      box-shadow: 5px 8px 0 black;
 
   }
 
@@ -78,13 +87,12 @@
   .description-box {
       position: absolute;
       margin-left: 50;
-      margin-top: 100;
+      margin-top: 150;
       border: 2px solid black;
       background-color: #666A86;
-      height: 400;
+      height: 350;
       width: 700;
       /* left: 50%;
       top: 50%; */
       z-index: 3;
-
   }
