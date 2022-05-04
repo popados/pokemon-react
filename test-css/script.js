@@ -627,6 +627,13 @@ for (var i = 0; i < pokemon.length; i++) {
     pokemon_names.push(pokemon[i].name)
 }
 
+let ivy_name = pokemon_names[1]
+
+let name_plate = this.document.getElementsByClassName("name-plate")[0]
+
+let text_plate = this.document.createElement("p")
+
+name_plate.append(pokemon_names[1], text_plate )
 
 
 let pokemon_species = url + 1
@@ -647,18 +654,21 @@ let pokemon_species = url + 1
 description_data = []
 
 async function pokemonCall(url){
+    return (await fetch(url)).json()
+}
     // const response = await fetch("https://pokeapi.co/api/v2/pokemon-species/1");
     // var pokemon_data = await response.json();
-    return (await fetch(url)).json()
     // console.log(pokemon_data)
-    }
 
 
 function setData(data) {
     let div = this.document.getElementsByClassName("information")
+    
     let p = this.document.createElement("p")
+
     let text = data[0][0].flavor_text;
     div[0].append(text, p)
+
 
     // console.log(text)
 }

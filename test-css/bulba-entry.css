@@ -17,19 +17,25 @@ h3 {
         position: absolute;
         margin-left: 500;
         width: 475;
-        height: auto;
+        height: 50;
         background-color: #D0CD94;
         padding: 10;
-        text-align: center;
         border: 2px solid black;
         box-shadow: 2px 2px 0 black;
+        font-size: 32;
+        text-transform: capitalize;
+    }
+
+    
+    p.name-plate {
+        text-decoration: dashed;
 
     }
 
     p.information {
-        text-align: center;
-        font-size: 24;
-        padding-top: 20px;
+        word-wrap: normal;
+        font-size: 32;
+        padding-left: 50;
         
     }
     
@@ -47,10 +53,9 @@ h3 {
     p.information-plate {
         text-align: center;
         font-size: 24;
-
+        padding: 0 0 25 0;
     }
 
-    
     
     img.portrait-img {
         background-color: #2C3D55;
@@ -59,28 +64,28 @@ h3 {
         height: auto;
         border: 2px solid black;
         border-radius: 50%;
-        overflow: visible;
         box-shadow: inset 0 0 10px #000000;
     }
 
     .move-one {
         margin: 200 0 0 20;
         position: absolute;
-        width: 150;
+        width: 350;
         height: 150;
-        border-radius: 50%;
-        background-color: #243E36;
+        border-radius: 25%;
+        background-color: #536271;
         box-shadow: inset 0 0 10px #000000;
         
     }
 
     .move-two {
-        margin: 200 0 0 420;
+        margin: 200 0 0 620;
         position: absolute;
-        width: 150;
+        width: 350;
         height: 150;
-        border-radius: 50%;
-        background-color: #243E36;
+        border-radius: 25%;
+        background-color: #536271;
+        box-shadow: inset 0 0 10px #000000;
     }
 
 
@@ -101,5 +106,6 @@ h3 {
     p.stat-plate {
         text-align: center;
         padding: 0;
+
             
     }
