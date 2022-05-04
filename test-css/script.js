@@ -610,7 +610,7 @@ DATA = [
     }
 ]
 
-const url = "https://pokeapi.co/api/v2/pokemon-species/1"
+const url = "https://pokeapi.co/api/v2/pokemon-species/2"
 
 let pokemon_data = []
 
@@ -623,7 +623,7 @@ pokemon_names = []
 
 
 for (var i = 0; i < pokemon.length; i++) {
-    console.log(pokemon[i].name)
+    //console.log(pokemon[i].name)
     pokemon_names.push(pokemon[i].name)
 }
 
@@ -655,21 +655,30 @@ async function pokemonCall(url){
 
 
 function setData(data) {
-    description_data = data
+    let div = this.document.getElementsByClassName("information")
+    let p = this.document.createElement("p")
+    let text = data[0][0].flavor_text;
+    div[0].append(text, p)
+
+    // console.log(text)
 }
     
 document.addEventListener("DOMContentLoaded", async () => {
     pokemon_data = await pokemonCall(url);
+    var ivy_url = "https://pokeapi.co/api/v2/pokemon/2"
+    ivy_data = await pokemonCall(ivy_url);
+    console.log(ivy_data)
     // console.log(pokemon_data.flavor_text_entries)
     description_data.push(pokemon_data.flavor_text_entries)
     setData(description_data)
-    console.log(description_data)
-
+    // console.log(description_data)
 })
 const element = description_data[0]
 
 
-console.log(element)
+// console.log(element)
+
+
 
 
 // pokemonCall(url)
