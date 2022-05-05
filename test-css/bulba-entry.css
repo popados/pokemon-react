@@ -1,7 +1,8 @@
 
 h3 {
-    padding-left: 25px;
 
+    padding: 25 0 0 25;
+    margin: 0 0 0 0;
 }
 
     #wrapper{
@@ -13,10 +14,10 @@ h3 {
         background-color: #536271;
     }
 
-    .name-plate{
+    .name-plate-wrapper{
         position: absolute;
-        margin-left: 500;
-        width: 475;
+        margin-left: 525;
+        width: 425;
         height: 50;
         background-color: #D0CD94;
         padding: 10;
@@ -27,9 +28,17 @@ h3 {
     }
 
     
-    p.name-plate {
-        text-decoration: dashed;
+    .name-plate {
+        font-size: 32;
+        margin-top: -25;
+        margin-left: -75;
+        text-transform: capitalize;
+        text-align: center;
 
+    }
+
+    p.name-plate {
+        text-align: center;
     }
 
     p.information {
@@ -50,14 +59,9 @@ h3 {
         background-clip: content-box;
         font-size: 32;
     }
-    p.information-plate {
-        text-align: center;
-        font-size: 24;
-        padding: 0 0 25 0;
-    }
-
     
     img.portrait-img {
+        content: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png");
         background-color: #2C3D55;
         position: absolute;
         width: fit-content;
@@ -67,25 +71,31 @@ h3 {
         box-shadow: inset 0 0 10px #000000;
     }
 
-    .move-one {
-        margin: 200 0 0 20;
+    .move-prev {
+        margin: 250 0 0 40;
         position: absolute;
         width: 350;
-        height: 150;
+        height: 25%;
         border-radius: 25%;
         background-color: #536271;
         box-shadow: inset 0 0 10px #000000;
+        text-align: center;
         
     }
 
-    .move-two {
-        margin: 200 0 0 620;
+    .move-next {
+        margin: 250 0 0 600;
         position: absolute;
         width: 350;
-        height: 150;
+        height: 25%;
         border-radius: 25%;
         background-color: #536271;
         box-shadow: inset 0 0 10px #000000;
+
+    }
+
+    div.move-next {
+        text-align: center;
     }
 
 
@@ -101,11 +111,66 @@ h3 {
         border-radius: 100px 10px;
         border: 2px solid black;
         box-shadow: 2px 2px 0 black;
+        font-size: 32;
     }
 
     p.stat-plate {
         text-align: center;
         padding: 0;
 
-            
     }
+
+    .preview-before{
+
+    }
+
+    .preview-before-pic{
+        background-color: #2C3D55;
+        margin-left: 125;
+        position: absolute;
+        padding: 5;
+        width: 85;
+        height: 85;
+        border: 2px solid black;
+        border-radius: 50%;
+        box-shadow: inset 0 0 10px #000000;
+    }
+
+    .preview-after-pic{
+        background-color: #2C3D55;
+        padding: 5;
+        margin-left: 132;
+        position: absolute;
+        width: 85;
+        height: 85;
+        border: 2px solid black;
+        border-radius: 50%;
+        box-shadow: inset 0 0 10px #000000;
+    }
+    
+  
+  
+    .red-ball{
+        position: absolute;
+        height: 123;
+        width: 125;
+        background-color: red;
+        border-radius: 50%;
+        border: 5px solid black;
+        box-shadow: 1px 2px 0px black;
+        z-index: 5;
+    
+      }
+    
+      .white-ball{
+        position: absolute;
+        margin-top: 64;
+        margin-left: 5;
+        height: 64;  
+        width: 125;  
+        border-bottom-left-radius: 350px;
+        border-bottom-right-radius: 350px;
+        background-color: white;
+        z-index: 5;
+      }
+    
