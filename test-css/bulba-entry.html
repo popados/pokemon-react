@@ -1,3 +1,5 @@
+<html>
+
 <head>
     <title>Bulbasaur Page</title>
 
@@ -23,18 +25,20 @@
 
         <div class="ivy-portrait">
             <img 
+            id="portrait-img"
             class="portrait-img"
             src=""
             alt="Ivysaur Official Artwork"
             />
         </div>
 
-
     
         
         <div class="information-plate">
             <div class="move-prev">
-                Previous
+                <button 
+                class="previous"
+                onClick="alertbox()">Previous</button>
                 <div class="preview-before">
                     <div class="preview-before-pic">
                     <img 
@@ -45,12 +49,14 @@
                     </div>
                 </div>
             </div>
-            <div class="move-next">
-                <button class="'next-button">Next</button>
+            <div id="next" class="move-next">
+                <button class="next">Next</button>
                 <div class="preview-after">
                     <div class="preview-after-pic">
                     <img 
-                        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png"
+                        class="preview-next"
+                        id="preview-next"
+                        src=""
                             height="75"
                             width="75"
                         />
@@ -67,3 +73,5 @@
 
     <script src="script.js"></script>
 </body>
+
+</html>
